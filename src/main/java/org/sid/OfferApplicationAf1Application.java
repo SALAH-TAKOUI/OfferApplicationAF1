@@ -21,8 +21,7 @@ public class OfferApplicationAf1Application implements CommandLineRunner {
 	
 	@Override
 	public void run(String... arg0) throws  Exception {
-		utilisateurRepository.save(new Utilisateur("1237AFKLM","TAKOUI","SALAH-EDDINE",new Date("04/07/1994"), "+33619230666", "M", "FRANCE"));
-		//System.out.println("IDENTIFIANT : "+utilisateurRepository.findByIdentifiant("1237AFKLM").getIdentifiant());
+		
 	}
 	
 
